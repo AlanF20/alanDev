@@ -13,7 +13,7 @@ html{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    max-width: 1400px;
+    max-width: 1700px;
 }
 .nav__ul{
     display: flex;
@@ -26,12 +26,12 @@ html{
 .nav__ul__li a{
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     transition: all 200ms;
 }
 .nav__ul__li a:hover{
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: 1.9rem;
 }
 .main{
     width: 100%;
@@ -42,8 +42,7 @@ html{
 }
 
 .main__welcomediv{
-    
-    font-size: 3.6rem;
+    font-size: 6rem;
 }
 .main__photosec{
     display: flex;
@@ -70,17 +69,17 @@ html{
 }
 .blog__title{
     width: 100%;
-    font-size: 3em;
+    font-size: 4em;
     text-align: center;
     color: azure;
 }
 .blog__section{
-    width: 70%;
+    width: 60%;
     display: grid;
     grid-template-columns: repeat(3,360px);
     align-content: center;
     height: 90vh;
-    max-width: 1400px;
+    max-width: 1600px;
     gap: 50px;
 }
 .blog__section-articulo{
